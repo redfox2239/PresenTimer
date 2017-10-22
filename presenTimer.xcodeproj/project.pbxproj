@@ -14,6 +14,10 @@
 		10FFC92C1F9BC69E00850EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FFC92A1F9BC69E00850EE0 /* LaunchScreen.storyboard */; };
 		10FFC9371F9BC69E00850EE0 /* presenTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9361F9BC69E00850EE0 /* presenTimerTests.swift */; };
 		10FFC9421F9BC69E00850EE0 /* presenTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9411F9BC69E00850EE0 /* presenTimerUITests.swift */; };
+		10FFC9501F9BC9FF00850EE0 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC94F1F9BC9FF00850EE0 /* SelectTimeViewController.swift */; };
+		10FFC9521F9BCA0B00850EE0 /* SelectAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9511F9BCA0B00850EE0 /* SelectAlertViewController.swift */; };
+		10FFC9541F9BCA1300850EE0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9531F9BCA1300850EE0 /* TimerViewController.swift */; };
+		10FFC9561F9C3F1400850EE0 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 10FFC9551F9C3F1300850EE0 /* music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		10FFC93D1F9BC69E00850EE0 /* presenTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = presenTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FFC9411F9BC69E00850EE0 /* presenTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presenTimerUITests.swift; sourceTree = "<group>"; };
 		10FFC9431F9BC69E00850EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10FFC94F1F9BC9FF00850EE0 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		10FFC9511F9BCA0B00850EE0 /* SelectAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAlertViewController.swift; sourceTree = "<group>"; };
+		10FFC9531F9BCA1300850EE0 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		10FFC9551F9C3F1300850EE0 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		10FFC9201F9BC69E00850EE0 /* presenTimer */ = {
 			isa = PBXGroup;
 			children = (
+				10FFC9551F9C3F1300850EE0 /* music.m4a */,
 				10FFC9211F9BC69E00850EE0 /* AppDelegate.swift */,
 				10FFC9231F9BC69E00850EE0 /* ViewController.swift */,
 				10FFC9251F9BC69E00850EE0 /* Main.storyboard */,
 				10FFC9281F9BC69E00850EE0 /* Assets.xcassets */,
 				10FFC92A1F9BC69E00850EE0 /* LaunchScreen.storyboard */,
 				10FFC92D1F9BC69E00850EE0 /* Info.plist */,
+				10FFC94F1F9BC9FF00850EE0 /* SelectTimeViewController.swift */,
+				10FFC9511F9BCA0B00850EE0 /* SelectAlertViewController.swift */,
+				10FFC9531F9BCA1300850EE0 /* TimerViewController.swift */,
 			);
 			path = presenTimer;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 			files = (
 				10FFC92C1F9BC69E00850EE0 /* LaunchScreen.storyboard in Resources */,
 				10FFC9291F9BC69E00850EE0 /* Assets.xcassets in Resources */,
+				10FFC9561F9C3F1400850EE0 /* music.m4a in Resources */,
 				10FFC9271F9BC69E00850EE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FFC9541F9BCA1300850EE0 /* TimerViewController.swift in Sources */,
 				10FFC9241F9BC69E00850EE0 /* ViewController.swift in Sources */,
+				10FFC9521F9BCA0B00850EE0 /* SelectAlertViewController.swift in Sources */,
+				10FFC9501F9BC9FF00850EE0 /* SelectTimeViewController.swift in Sources */,
 				10FFC9221F9BC69E00850EE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
