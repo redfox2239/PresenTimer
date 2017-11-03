@@ -121,7 +121,7 @@ class SelectTimeViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
         present(vc, animated: true, completion: nil)
     }
     
-    // セルを削除したときどうするす？
+    // セルを削除したときどうするするぅ？
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         // favoriteDataから選択した行のデータを削除
         favoriteData.remove(at: indexPath.row)
