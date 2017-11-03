@@ -28,7 +28,7 @@ class SelectTimeViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     override func viewWillAppear(_ animated: Bool) {
         // UserDefaultsさん（データを保存したり、取得したりしてくれる人を呼んでくる
         let userDefault = UserDefaults.standard
-        // 保存されてるお気に入りのタイマーを取得する
+        // 保存されてるお気に入りのタイマーを取得する("myTimers"という場所にある)
         if let myTimers = userDefault.object(forKey: "myTimers") as? [[Any]] {
             favoriteData = myTimers
         }

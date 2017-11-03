@@ -9,6 +9,12 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--時間を選択-->
         <scene sceneID="tne-QT-ifu">
@@ -164,14 +170,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0b-s9-VC5">
-                                <rect key="frame" x="164.5" y="323" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="84.5" y="300.5" width="206" height="66"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="66"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15分経ちました" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ml-fM-qGO">
-                                <rect key="frame" x="126.5" y="360" width="122" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="93" y="390.5" width="190.5" height="26"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -208,7 +214,7 @@
                             <constraint firstItem="huf-0L-Waz" firstAttribute="leading" secondItem="GB0-yh-gpz" secondAttribute="leading" constant="8" id="API-Fe-H0O"/>
                             <constraint firstItem="fmB-As-Bhy" firstAttribute="centerX" secondItem="4Si-sA-hUt" secondAttribute="centerX" id="LWK-Rr-Ilf"/>
                             <constraint firstItem="fmB-As-Bhy" firstAttribute="top" secondItem="huf-0L-Waz" secondAttribute="bottom" constant="60" id="NKt-Jf-V4B"/>
-                            <constraint firstItem="2ml-fM-qGO" firstAttribute="top" secondItem="i0b-s9-VC5" secondAttribute="bottom" constant="16" id="QKt-eX-HbS"/>
+                            <constraint firstItem="2ml-fM-qGO" firstAttribute="top" secondItem="i0b-s9-VC5" secondAttribute="bottom" constant="24" id="QKt-eX-HbS"/>
                             <constraint firstItem="3VC-lh-KqW" firstAttribute="centerX" secondItem="4Si-sA-hUt" secondAttribute="centerX" id="cl5-gy-nej"/>
                             <constraint firstItem="huf-0L-Waz" firstAttribute="centerX" secondItem="4Si-sA-hUt" secondAttribute="centerX" id="eSf-i4-P3h"/>
                             <constraint firstItem="3VC-lh-KqW" firstAttribute="top" secondItem="fmB-As-Bhy" secondAttribute="bottom" constant="8" id="edq-OA-YBZ"/>
