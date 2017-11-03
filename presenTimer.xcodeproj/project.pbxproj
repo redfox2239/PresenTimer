@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10FFC9221F9BC69E00850EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9211F9BC69E00850EE0 /* AppDelegate.swift */; };
-		10FFC9241F9BC69E00850EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFC9231F9BC69E00850EE0 /* ViewController.swift */; };
 		10FFC9271F9BC69E00850EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FFC9251F9BC69E00850EE0 /* Main.storyboard */; };
 		10FFC9291F9BC69E00850EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FFC9281F9BC69E00850EE0 /* Assets.xcassets */; };
 		10FFC92C1F9BC69E00850EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FFC92A1F9BC69E00850EE0 /* LaunchScreen.storyboard */; };
@@ -40,7 +39,6 @@
 /* Begin PBXFileReference section */
 		10FFC91E1F9BC69E00850EE0 /* presenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10FFC9211F9BC69E00850EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10FFC9231F9BC69E00850EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10FFC9261F9BC69E00850EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10FFC9281F9BC69E00850EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10FFC92B1F9BC69E00850EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 			children = (
 				10FFC9551F9C3F1300850EE0 /* music.m4a */,
 				10FFC9211F9BC69E00850EE0 /* AppDelegate.swift */,
-				10FFC9231F9BC69E00850EE0 /* ViewController.swift */,
 				10FFC9251F9BC69E00850EE0 /* Main.storyboard */,
 				10FFC9281F9BC69E00850EE0 /* Assets.xcassets */,
 				10FFC92A1F9BC69E00850EE0 /* LaunchScreen.storyboard */,
@@ -273,7 +270,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				10FFC9541F9BCA1300850EE0 /* TimerViewController.swift in Sources */,
-				10FFC9241F9BC69E00850EE0 /* ViewController.swift in Sources */,
 				10FFC9521F9BCA0B00850EE0 /* SelectAlertViewController.swift in Sources */,
 				10FFC9501F9BC9FF00850EE0 /* SelectTimeViewController.swift in Sources */,
 				10FFC9221F9BC69E00850EE0 /* AppDelegate.swift in Sources */,
