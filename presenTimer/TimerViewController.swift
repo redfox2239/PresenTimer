@@ -111,8 +111,8 @@ class TimerViewController: UIViewController {
                             self.alertLabel.isHidden = true
                         })
                     }
-                    // もし、設定した時間=経過時間になったら
-                    if self.selectTime == remainingMinutes {
+                    // もし、残り時間が0になったら
+                    if remainingTime == 0 {
                         // alertLabelを表示する
                         self.alertLabel.isHidden = false
                         // alertLabelに"終了！"といれる
