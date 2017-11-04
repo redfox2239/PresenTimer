@@ -139,7 +139,7 @@ class SelectTimeViewController: UIViewController,UIPickerViewDelegate,UIPickerVi
     // 決定ボタンを押したときどうするぅ？
     @IBAction func tapCompleteButton(_ sender: Any) {
         // (timePickerViewで選択した行 + 1)x5して、設定したいタイマーの時間を取得する
-        let selectTime = (timePickerView.selectedRow(inComponent: 0)+1)*5
+        let selectTime = (timePickerView.selectedRow(inComponent: 0)+1)*step
         // 移動先の画面を呼んでくる
         let vc = storyboard?.instantiateViewController(withIdentifier: "SelectAlertViewController") as! SelectAlertViewController
         // timePickerViewを次の画面に渡す
